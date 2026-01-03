@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "type": "module",
-  "workspace": [
+  "workspaces": [
     "apps/*"
   ]
 }
