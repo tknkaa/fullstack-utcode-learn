@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.ts",
+    "dev": "npx tsx --env-file=.env src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -24,6 +24,7 @@
     "@types/pg": "^8.16.0",
     "drizzle-kit": "^0.31.8",
     "tsc": "^2.0.4",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   }
 }
